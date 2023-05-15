@@ -1,0 +1,31 @@
+body{
+    padding: 0;
+    margin: 0 0 0 10px;
+    line-height: 1.5;
+    font-size: 16px;
+    background-color:darkgray ;
+    box-sizing: border-box;
+}
+span{
+    color: brown;
+}
+#btn{
+    background-color: darkkhaki;
+    font-size: 20px;
+    color: black;
+}
+#btn:hover{
+    cursor: pointer;
+}
+footer{
+    color: #fff;
+    background: #333;
+    padding: 10px;
+    /* position: absolute; */
+    bottom: 0px;
+    left: 0px;
+}
+[class*="col-"]{
+    width: 100%;
+    float: left;
+}
